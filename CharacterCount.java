@@ -33,6 +33,7 @@ public static void printCharacterCount(HashMap<Character,Integer>charCountMap)
     for(char c : charCountMap.keySet())
     {
         System.out.println(c +":"+ charCountMap.get(c));
+        
     }
 }
 }
